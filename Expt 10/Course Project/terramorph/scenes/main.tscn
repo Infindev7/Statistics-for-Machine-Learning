@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://u3ew7mrffddx"]
+
+[ext_resource type="Script" uid="uid://b2lodtlq6bhlj" path="res://terrain_morpher.gd" id="1_o5qli"]
+
+[node name="Main" type="Node3D" unique_id=530278411]
+script = ExtResource("1_o5qli")

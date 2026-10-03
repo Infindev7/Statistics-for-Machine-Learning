@@ -1,0 +1,21 @@
+[configuration]
+
+entry_symbol = "gdext_rust_init"
+compatibility_minimum = "4.6"
+reloadable = true
+
+[libraries]
+
+linux.x86_64 = "res://addons/godot-onnx/libgodot_onnx.so"
+macos.universal = "res://addons/godot-onnx/libgodot_onnx.dylib"
+windows.x86_64 = "res://addons/godot-onnx/libgodot_onnx.dll"
+android.release.arm64 = "res://addons/godot-onnx/libgodot_onnx.arm64-v8a.so"
+ios.release.arm64 = "res://addons/godot-onnx/libgodot_onnx.ios.arm64.dylib"
+
+[dependencies]
+
+linux.x86_64 = []
+macos.universal = []
+windows.x86_64 = []
+android.release.arm64 = []
+ios.release.arm64 = []

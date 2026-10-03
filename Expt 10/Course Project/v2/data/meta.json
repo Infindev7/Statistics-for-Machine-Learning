@@ -1,0 +1,20 @@
+{
+  "regions": [
+    "himalayas",
+    "andes"
+  ],
+  "zoom": 12,
+  "patch_size": 64,
+  "n_patches": 2000,
+  "elevation_metres": {
+    "min": 104.0,
+    "max": 6343.0,
+    "mean": 3225.617919921875
+  },
+  "tile_stats": {
+    "downloaded": 223,
+    "flat": 97,
+    "failed": 0
+  },
+  "attribution": "Mapzen Terrarium tiles (elevation-tiles-prod), RGB decoded to metres"
+}

@@ -1,0 +1,14 @@
+[remap]
+
+importer="godot_onnx.onnx"
+type="OnnxModelData"
+uid="uid://dfh10w8mn3eiq"
+path="res://.godot/imported/terrain_decoder.onnx-db1318c2d1f37355723f0514f740f484.res"
+
+[deps]
+
+source_file="res://models/terrain_decoder.onnx"
+dest_files=["res://.godot/imported/terrain_decoder.onnx-db1318c2d1f37355723f0514f740f484.res"]
+
+[params]
+

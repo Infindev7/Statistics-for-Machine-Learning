@@ -3,6 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Temporary and lock files
+~*
+*~
+*.tmp
+
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
@@ -13,7 +18,11 @@ env/
 venv/
 ENV/
 
+# Godot engine artifacts
+.godot/
+
 # Operating System files
 .DS_Store
 Thumbs.db
 desktop.ini
+

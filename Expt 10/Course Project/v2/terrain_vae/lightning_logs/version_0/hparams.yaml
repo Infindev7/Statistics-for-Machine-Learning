@@ -1,0 +1,5 @@
+img_size: 128
+latent_dim: 5
+beta: 2.0
+kl_warmup_epochs: 15
+lr: 0.001

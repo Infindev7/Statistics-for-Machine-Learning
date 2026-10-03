@@ -1,6 +1,6 @@
-# Statistical Methods & Machine Learning Experiments (1–9)
+# Statistical Methods & Machine Learning Experiments (1–10)
 
-A comprehensive collection of 9 statistical and machine learning practical experiments implemented in Python and Jupyter Notebooks. The series systematically explores data analysis, hypothesis testing, predictive modeling, clustering, and model interpretability using the classic **Pima Indians Diabetes Dataset**.
+A comprehensive collection of 10 statistical and machine learning practical experiments and projects implemented in Python, Jupyter Notebooks, and Godot 4. The series systematically explores data analysis, hypothesis testing, predictive modeling, clustering, model interpretability, and deep generative models (β-VAE).
 
 ---
 
@@ -17,6 +17,7 @@ A comprehensive collection of 9 statistical and machine learning practical exper
 | **07** | **Classification Models (Supervised Learning)** | Logistic Regression, Random Forest Classifier, Confusion Matrix, Precision, Recall, F1-Score, ROC-AUC | `fig1_roc.png` |
 | **08** | **Clustering & Dimensionality Reduction** | Principal Component Analysis (PCA), explained variance ratio, K-Means clustering, Elbow method, Silhouette score | `fig1_pca.png`<br>`fig2_elbow.png`<br>`fig3_kmeans.png` |
 | **09** | **Model Validation & Explainability** | Stratified K-Fold cross-validation, probability calibration curve, Brier score, Permutation Feature Importance | `fig1_calibration.png`<br>`fig2_importance.png` |
+| **10** | **Course Project: Terramorph** | Deep generative modeling (β-VAE), latent space traversal & disentanglement, ONNX deployment, interactive 3D terrain morphing in Godot 4 | `hero-live-render.png`<br>`latent-traversal.png`<br>`walk-mode.png`<br>`morph.gif` |
 
 ---
 
@@ -76,10 +77,18 @@ Stats/
 ├── Expt 2/
 │   └── ...
 ├── ...
-└── Expt 9/
-    ├── Expt_9.ipynb
-    ├── Expt_9.html
-    ├── pima-indians-diabetes.csv
-    ├── README.md
-    └── images/
+├── Expt 9/
+│   ├── Expt_9.ipynb
+│   ├── Expt_9.html
+│   ├── pima-indians-diabetes.csv
+│   ├── README.md
+│   └── images/
+└── Expt 10/
+    └── Course Project/
+        ├── README.md
+        ├── tile_scraper.py
+        ├── terramorph/          # Godot 4 interactive project
+        ├── v1/                  # Initial 64px prototype
+        ├── v2/                  # Final 128px β-VAE model
+        └── images/
 ```
